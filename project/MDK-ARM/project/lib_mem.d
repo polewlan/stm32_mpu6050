@@ -1,0 +1,11 @@
+project\lib_mem.o: ..\User\uC-LIB\lib_mem.c
+project\lib_mem.o: ../User/uC-LIB/lib_mem.h
+project\lib_mem.o: ../User/uC-CPU/ARM-Cortex-M3/RealView/cpu.h
+project\lib_mem.o: ../User/uC-CPU/cpu_def.h
+project\lib_mem.o: ../User/APP/cpu_cfg.h
+project\lib_mem.o: ../User/uC-CPU/cpu_core.h
+project\lib_mem.o: ../User/uC-LIB/lib_def.h
+project\lib_mem.o: ../User/uC-LIB/lib_mem.h
+project\lib_mem.o: ../User/uC-LIB/lib_str.h
+project\lib_mem.o: ../User/uC-LIB/lib_ascii.h
+project\lib_mem.o: ../User/APP/lib_cfg.h

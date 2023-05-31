@@ -1,0 +1,12 @@
+project\lib_math.o: ..\User\uC-LIB\lib_math.c
+project\lib_math.o: ../User/uC-LIB/lib_math.h
+project\lib_math.o: ../User/uC-CPU/ARM-Cortex-M3/RealView/cpu.h
+project\lib_math.o: ../User/uC-CPU/cpu_def.h
+project\lib_math.o: ../User/APP/cpu_cfg.h
+project\lib_math.o: ../User/uC-CPU/cpu_core.h
+project\lib_math.o: ../User/uC-LIB/lib_def.h
+project\lib_math.o: ../User/uC-LIB/lib_mem.h
+project\lib_math.o: ../User/uC-CPU/cpu_core.h
+project\lib_math.o: ../User/APP/lib_cfg.h
+project\lib_math.o: ../User/uC-LIB/lib_str.h
+project\lib_math.o: ../User/uC-LIB/lib_ascii.h

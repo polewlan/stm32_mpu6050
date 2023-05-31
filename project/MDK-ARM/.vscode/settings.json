@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "gpio.h": "c",
+        "dma.h": "c",
+        "main.h": "c",
+        "ano_tc.h": "c",
+        "usart.h": "c",
+        "driver.h": "c"
+    }
+}
