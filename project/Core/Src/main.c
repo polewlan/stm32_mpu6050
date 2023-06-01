@@ -202,12 +202,11 @@ void Task_Base(void *p_arg)
 	  OS_ERR      err;
     
     while (1) {                                          /* Task body, always written as an infinite loop.       */
-			//led_toggle ;
+			led_toggle ;
 		
 			//printf("this is base\n");
       
 			//motor_control(120);
-			//
       //ANO_TC_SendEuler(mpu_data.roll,mpu_data.pitch,mpu_data.yaw);
       //ANO_TC_Send(300,400,500,-300,-400,-500);
 			OSTimeDly ( 1, OS_OPT_TIME_DLY, & err );
@@ -230,7 +229,6 @@ void Task_Tim1(void *p_arg)
 }
 void Task_Tim2(void *p_arg) 
 {
-    //printf("this is tim2\n");
 		static short cnt = 0;
     static float vel_out = 0.0;
     static int16_t ang_out = 0;

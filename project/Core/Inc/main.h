@@ -59,6 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define Motor_Dir_Pin GPIO_PIN_2
 #define Motor_Dir_GPIO_Port GPIOA
+#define LED_Pin GPIO_PIN_3
+#define LED_GPIO_Port GPIOA
 #define Encoder_Pin GPIO_PIN_11
 #define Encoder_GPIO_Port GPIOA
 
